@@ -1,0 +1,25 @@
+.main-wrapper {
+    max-width: 60ch;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.list-group-item img {
+    width: 12rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: .25rem;
+}
+
+.input-container {
+    margin-top: .5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
